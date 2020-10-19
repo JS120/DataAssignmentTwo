@@ -44,44 +44,47 @@
             this.videoRentOperationsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1218, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(914, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // customerOperationsToolStripMenuItem
             // 
             this.customerOperationsToolStripMenuItem.Name = "customerOperationsToolStripMenuItem";
-            this.customerOperationsToolStripMenuItem.Size = new System.Drawing.Size(163, 24);
+            this.customerOperationsToolStripMenuItem.Size = new System.Drawing.Size(132, 20);
             this.customerOperationsToolStripMenuItem.Text = "Customer Operations";
             this.customerOperationsToolStripMenuItem.Click += new System.EventHandler(this.customerOperationsToolStripMenuItem_Click);
             // 
             // videoOperationsToolStripMenuItem
             // 
             this.videoOperationsToolStripMenuItem.Name = "videoOperationsToolStripMenuItem";
-            this.videoOperationsToolStripMenuItem.Size = new System.Drawing.Size(139, 24);
+            this.videoOperationsToolStripMenuItem.Size = new System.Drawing.Size(110, 20);
             this.videoOperationsToolStripMenuItem.Text = "Video Operations";
             this.videoOperationsToolStripMenuItem.Click += new System.EventHandler(this.videoOperationsToolStripMenuItem_Click);
             // 
             // videoRentOperationsToolStripMenuItem
             // 
             this.videoRentOperationsToolStripMenuItem.Name = "videoRentOperationsToolStripMenuItem";
-            this.videoRentOperationsToolStripMenuItem.Size = new System.Drawing.Size(173, 24);
+            this.videoRentOperationsToolStripMenuItem.Size = new System.Drawing.Size(137, 20);
             this.videoRentOperationsToolStripMenuItem.Text = "Video Rent Operations";
             this.videoRentOperationsToolStripMenuItem.Click += new System.EventHandler(this.videoRentOperationsToolStripMenuItem_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1218, 646);
+            this.ClientSize = new System.Drawing.Size(914, 525);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Video Renting Software";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

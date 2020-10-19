@@ -10,7 +10,7 @@ namespace DataAssignmentTwo
 {
     public class Common
     {
-        private string conStr = @"Data Source=DESKTOP-509UT71\SQLEXPRESS;Initial Catalog=videodb;Integrated Security=True;";
+        private string conStr = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=videodbs;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
         private SqlConnection conn;
 

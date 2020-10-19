@@ -44,5 +44,10 @@ namespace DataAssignmentTwo
             form.MdiParent = this;
             form.Show();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

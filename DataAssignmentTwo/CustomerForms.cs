@@ -69,6 +69,7 @@ namespace DataAssignmentTwo
                 if (common.AddCustomer(name, address, contact_no))
                 {
                     message = "New Customer is Added";
+                    LoadDatabase();
                 }
                 else
                 {
@@ -126,6 +127,7 @@ namespace DataAssignmentTwo
                     {
                         message = "Record does not Removed";
                     }
+                    MessageBox.Show(message);
                 }
                 textCustomerID.Text = textCustomerName.Text = textContactNo.Text = textAddress.Text = "";
                 btnSave.Text = "Add New Customer";
@@ -148,6 +150,11 @@ namespace DataAssignmentTwo
             {
                 textCustomerID.Text = textCustomerName.Text = textAddress.Text = textContactNo.Text = "";
             }
+        }
+
+        private void CustomerForms_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

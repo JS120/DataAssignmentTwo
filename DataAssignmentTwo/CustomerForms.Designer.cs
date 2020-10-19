@@ -45,11 +45,12 @@
             // dgvCustomer
             // 
             this.dgvCustomer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCustomer.Location = new System.Drawing.Point(12, 12);
+            this.dgvCustomer.Location = new System.Drawing.Point(9, 10);
+            this.dgvCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvCustomer.Name = "dgvCustomer";
             this.dgvCustomer.RowHeadersWidth = 51;
             this.dgvCustomer.RowTemplate.Height = 24;
-            this.dgvCustomer.Size = new System.Drawing.Size(1069, 427);
+            this.dgvCustomer.Size = new System.Drawing.Size(802, 347);
             this.dgvCustomer.TabIndex = 0;
             this.dgvCustomer.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCustomer_CellClick);
             // 
@@ -57,9 +58,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 465);
+            this.label1.Location = new System.Drawing.Point(9, 378);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(176, 32);
+            this.label1.Size = new System.Drawing.Size(142, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Customer ID:";
             // 
@@ -67,72 +69,80 @@
             // 
             this.textCustomerID.Enabled = false;
             this.textCustomerID.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textCustomerID.Location = new System.Drawing.Point(194, 462);
+            this.textCustomerID.Location = new System.Drawing.Point(146, 375);
+            this.textCustomerID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textCustomerID.Name = "textCustomerID";
-            this.textCustomerID.Size = new System.Drawing.Size(100, 39);
+            this.textCustomerID.Size = new System.Drawing.Size(76, 32);
             this.textCustomerID.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(335, 465);
+            this.label2.Location = new System.Drawing.Point(251, 378);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(214, 32);
+            this.label2.Size = new System.Drawing.Size(172, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "Customer Name:";
             // 
             // textCustomerName
             // 
             this.textCustomerName.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textCustomerName.Location = new System.Drawing.Point(555, 462);
+            this.textCustomerName.Location = new System.Drawing.Point(416, 375);
+            this.textCustomerName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textCustomerName.Name = "textCustomerName";
-            this.textCustomerName.Size = new System.Drawing.Size(526, 39);
+            this.textCustomerName.Size = new System.Drawing.Size(396, 32);
             this.textCustomerName.TabIndex = 4;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 546);
+            this.label3.Location = new System.Drawing.Point(9, 444);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(159, 32);
+            this.label3.Size = new System.Drawing.Size(126, 25);
             this.label3.TabIndex = 5;
             this.label3.Text = "Contact No:";
             // 
             // textContactNo
             // 
             this.textContactNo.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textContactNo.Location = new System.Drawing.Point(177, 543);
+            this.textContactNo.Location = new System.Drawing.Point(133, 441);
+            this.textContactNo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textContactNo.Name = "textContactNo";
-            this.textContactNo.Size = new System.Drawing.Size(253, 39);
+            this.textContactNo.Size = new System.Drawing.Size(191, 32);
             this.textContactNo.TabIndex = 6;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(447, 546);
+            this.label4.Location = new System.Drawing.Point(335, 444);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(121, 32);
+            this.label4.Size = new System.Drawing.Size(95, 25);
             this.label4.TabIndex = 7;
             this.label4.Text = "Address:";
             // 
             // textAddress
             // 
             this.textAddress.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textAddress.Location = new System.Drawing.Point(565, 543);
+            this.textAddress.Location = new System.Drawing.Point(424, 441);
+            this.textAddress.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textAddress.Multiline = true;
             this.textAddress.Name = "textAddress";
-            this.textAddress.Size = new System.Drawing.Size(516, 174);
+            this.textAddress.Size = new System.Drawing.Size(388, 142);
             this.textAddress.TabIndex = 8;
             // 
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(18, 608);
+            this.btnSave.Location = new System.Drawing.Point(14, 494);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(531, 56);
+            this.btnSave.Size = new System.Drawing.Size(398, 46);
             this.btnSave.TabIndex = 9;
             this.btnSave.Text = "Add New Customer";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -141,9 +151,10 @@
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(18, 676);
+            this.btnDelete.Location = new System.Drawing.Point(14, 549);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(531, 56);
+            this.btnDelete.Size = new System.Drawing.Size(398, 46);
             this.btnDelete.TabIndex = 10;
             this.btnDelete.Text = "Delete Customer Record";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -151,9 +162,9 @@
             // 
             // CustomerForms
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1093, 744);
+            this.ClientSize = new System.Drawing.Size(820, 604);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.textAddress);
@@ -165,9 +176,11 @@
             this.Controls.Add(this.textCustomerID);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvCustomer);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "CustomerForms";
             this.Text = "CustomerForms";
+            this.Load += new System.EventHandler(this.CustomerForms_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCustomer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
